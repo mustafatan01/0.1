@@ -1,0 +1,262 @@
+<html>
+<head>
+<script type="text/javascript">
+ /*function profil (ad, soyad, dyıl)
+ {this.ad=ad;
+ this.soyad=soyad;
+ this.dyıl=dyıl;
+ this.hesap=hesap;
+ }
+ 
+ 
+ function hesap ()
+ {var x=2100 - this.dyıl;
+  return x;}*/
+  
+</script>
+<style>
+<meta charset="utf-8">
+
+
+</style>
+
+</head>
+<body>
+<form id="giriş"> 
+ <fieldset><legend> üye girişi</legend>
+kullanıcı adı:<input type="text" value="kullanıcı adı veya telefon"/><br/>
+şifre : <input type="password" value="şifre" /><br/>
+<input type="button" value="giriş"/>
+</fieldset>
+</form>
+<hr/>
+<form id="üyelik"> 
+ <fieldset><legend> üye 0l</legend>
+kullanıcı adı:<input type="text" value="kullanıcı adı veya telefon"/><br/>
+numara:<input type="phonenumber" value="0(000) 000 0000"/><br/>
+mail adresi:<input type="mailto" value="kullanıcı adı veya telefon"/><br/>
+şifre oluştur : <input type="password" value="şifre" /><br/>
+tekrar şifre : <input type="password" value="şifre" /><br/>
+<input type="button" value="giriş"/></fieldset>
+
+</form>
+<script type="text/javascript">
+/*document.write("hoşgeldiniz");
+var name=9;
+var yıl=3;
+document.write ("benim yaşım"+name+"."+yıl+"yıl sonra"+(yıl+name)+"yaşında olacağım"); */
+
+    /* function heyy (d) {return d*d;}
+     function hey (a) {alert(a*a*a);}
+	 hey (heyy(8));
+	 
+	 
+	 var x=2;
+	 function hy (hy1) {document.write(hy1+"kere dönüyor");&
+                    hy1=hy1+1;
+					by (h    y1);
+	 }'
+	 function by (by1) {document.write(by1+"kere yazıyor");
+	                by1=by1+1;
+	                hy (by1);}
+	 by (x);*/
+	 /*8.ders
+	 var y=7;
+	 var x=9;
+	 var z=1;
+	 y*=x;
+	  document.write(y+" kere yaz");
+	  
+	  var şifre="murat4"
+	  if (şifre=="murat34")
+	  {document.write("şifreniz doğru :)");}
+	   else {document.write("şifreniz yanlış :( ");}
+	   9.ders
+	   var tavuk=50;
+	   var yumurta=50;
+	   if (tavuk!=yumurta)
+	   {document.write("tavuk yumurtadan daha çok");}
+	   else {document.write("yumurta tavuktan daha çok");}
+	   
+	   10.ders 10.1
+	   var ad="mustafa";
+	   var soyad="tan";
+	   
+	   if (ad=="mustafa") 
+	   {if (soyad=="tan") {document.write("adınız ve soyadınız doğru yazıldı");}
+	   else {document.write("soyadınız yanlış yazıldı");}}
+	   else {document.write("adınız yanlış yazıldı");}
+	   10.2
+	    var ad="ali";
+		var soyad="tek";
+		if ((ad=="ali")&&(soyad=="tek"))
+		{document.write("ad da soyatda doğru :)");}
+		else
+		{ if ((ad=="ali")||(soyad=="tek")) 
+		{document.write("ad veya soyad yanlış :|");}
+		else 
+		{document.write("ne ad ne soyad doğru :(");}} 
+		11.ders
+		var oyuncu="messi";
+		switch (oyuncu)
+		     {  case "arda":
+			   {document.write("aradığınız oyuncu arda güler");
+			   break;}
+			   case "messi":
+			   {document.write("aradığınız oyuncu messi");
+			   break;}
+			   default:
+			   {document.write("aradığınız oyuncuyu bulamadık");}}
+	    12.ders
+	   var nohut=10;
+	   while (nohut<35000)
+	   {document.write("benim elimde"+nohut+"nohut var"+"<br/>");
+	   nohut++;}
+	   
+	   13.ders
+	   for ( var z=15 ; z<26 ; z=z+2 )
+	   {document.write("şu anki z değeri"+z+"<br/>");}
+	   
+	    14.ders
+	   var g=14;
+	   do {document.write("şuanki değer"+g+"<br/>");
+	   g=g+5 ; }
+	   while(g<57
+	   )
+	   15.ders
+	   var her= new profil ("mustafa", "tanriveren", 1999);
+	   document.write(her.ad);
+	   16.1 ders
+	   var prf101 = {isim:"mustafa",soyad:"tan",dtarih:1999};
+	   document.write (prf101.dtarih);
+	   16.2.ders
+	   
+	   var prf101 = new profil("mustafa","tan",1929);
+       var prf102 = new profil("ahmet","kan",1896);
+       var prf103 = new profil ("ali","tek",1969);
+	   document.write(prf102.hesap ());
+	   17.ders
+	   var restorantlar = new Array ("yeşil inci","bursa kebap","tavuk dünyası");
+	   document.write(restorantlar[2]);
+	   18. ders
+	   var şehirler =new Array ();
+	   şehirler [0]="muş";
+	   şehirler [1]="ağrı";
+	   şehirler [2]="adana";
+	   şehirler [3]="artvin";
+	   document.write(şehirler.length+"<hr/>");
+	   for (var ü=0; ü < şehirler.length; ü++)
+	  { document.write(şehirler[ü]+"<br/>");}
+	   19.ders
+	   var dersler = new Array ("mat","türkçe","ingilizce","sosyal");
+	   var ders = new Array ("matem","türkç","ingilizc","sosya");
+	   for (var h=0; h<dersler.length; h++)
+	   
+	   {document.write(dersler[h]+ "<hr/>");}
+	   document.write(dersler.join ()+"<hr/>");
+	   document.write((dersler.concat(ders)).join ()+"<hr/>");
+	   
+	   var dersim = dersler.reverse();
+	   document.write(dersim.join()); 
+	   var dersi=dersler.concat(ders);
+	   document.write(dersi.join ()+ "<hr/>");
+	   
+	   var sıra=dersi.sort();
+	   document.write(sıra.join()+ "<hr/>");
+	   
+	   sıra.pop();
+	   document.write(sıra.join()+ "<hr/>");
+	   
+	   sıra.push("fen "+" biyoloji ");
+	   document.write( sıra.join()+ "<hr/>");
+	   
+	   for (var ü=0; ü<3; ü++)
+	   
+	   {var t=prompt("lütfen adınızı yazınız");
+	   dersler[ü]=t;}
+	   document.write(desler.join());
+	   22.dersi
+	   var liste = new Array ();
+	   liste[0] = Math.round (1.36);
+	   liste[1] = Math.round (1.87);
+	   liste[2] = Math.floor (1.99);
+	   liste[3] = Math.PI;
+	   liste[4] = Math.E;
+	   liste[5] = Math.sqrt (64);
+	   liste[6] = Math.random();
+	   liste[7] = Math.max (724938,66428273,7293,72482,72488);
+	   liste[8] = Math.min (724938,66428273,7293,72482,72488);
+	  
+	   for (var p=0; p < liste.length ; p++)
+	   {document.write(liste[p]+"<hr/>");}
+	   23.ders
+	   var vakit = new Date();
+	   document.write(vakit+"<hr/>");
+	   var saat = vakit.getHours();
+	   document.write(saat+"<hr/>");
+	   var dakika = vakit.getMinutes();
+	   document.write(dakika+"<hr/>");
+	   
+	   var yanlışzaman = new Date (2012,10,2,22,05,0,0);
+	   document.write(yanlışzaman+"<hr/>");
+	   vakit.setMinutes(27);
+	   document.write(vakit+"<hr/>");
+	   
+	   function yaskontrol () {
+	   var umyılı=prompt ("lütfen doğum yılını yazınız","");
+	   var zaman = new Date();
+	   var sınır = zaman.getFullYear()-18;
+	   if (umyılı > sınır)
+	   { alert ("yaşınız uygun değildir");}
+	   else
+	   {alert ("yaşınız uygundur, sitemizde rahat hareket edebilirsiniz");}}
+	   yaskontrol ();
+	   24.dersi
+	   
+	   var saniye=350;
+	   
+	   function kronometre () {
+	   var dak = Math.floor (saniye/60);
+	   var saat = Math.floor (saniye/3400);
+	   var dakika = dak%60;
+	   var san = saniye%60;
+	   
+	   document.write(saat+" : "+dakika+" : "+ san+ "<br/>");
+	   saniye++;}
+	   setInterval ("kronometre()",1000);
+	   25.ders
+	   function karekök () {
+	   var x=prompt("karekökünü öğrenmek için bir sayı giriniz","karekök sayısı")
+	   var y=Math.sqrt(x);
+	   alert ( x+"sayısının kare kökü: "+y);}
+	   
+	   
+	   
+	   
+
+
+    <input type="button" value="düğme" onclick="alert('hoşgeldiniz');
+                                    alert('sitede gezinmek için ücretli versiyona geçiniz.')"; />
+<input type="button" value="karekökü" onclick="karekök();"/>
+function mesaj1 () {
+alert ('mutarek reklam mağazasına hoşgeldiniz.');}
+
+function mesaj2 () {
+alert ('mutarek reklam mağazasına hoşgittiniz.');}
+
+function mesaj3 () {
+alert ('aşşağıya inin ama bodrumdan korkmayın .');}*/
+var x=document.forms[1].elements[3].type;
+alert(x);
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
